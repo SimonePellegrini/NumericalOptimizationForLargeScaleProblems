@@ -1,0 +1,15 @@
+clear; clc; close all;
+f = @(x, y) problem76_func([x; y]); 
+x_range = linspace(-5, 5, 50); 
+y_range = linspace(-5, 5, 50);
+[X, Y] = meshgrid(x_range, y_range);
+Z = arrayfun(f, X, Y);
+figure('Color', 'w');
+surf(X, Y, Z);
+colormap("summer");
+view(45, 30);
+h_x = xlabel('x_1'); 
+h_y = ylabel('x_2'); 
+h_z = zlabel('f(x_1,x_2)');
+set(h_x, 'Rotation', -20, 'VerticalAlignment', 'top', 'HorizontalAlignment', 'center');
+set(h_y, 'Rotation', 25, 'VerticalAlignment', 'top', 'HorizontalAlignment', 'center');

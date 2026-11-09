@@ -1,0 +1,13 @@
+Method,N,Precond,AvgTime_s,AvgIter,AvgGradientNorm,AvgConvRate_Rho,SuccessRate
+modifiedNewton,2,0,0.0011,1.09e-08,4.50,1.8244,1.00
+modifiedNewton,1000,0,0.0026,3.06e-07,6.33,1.8671,1.00
+modifiedNewton,10000,0,0.0098,1.24e-07,5.50,1.7557,1.00
+modifiedNewton,100000,0,0.1124,1.55e-07,5.83,1.7375,1.00
+truncatedNewton,2,0,0.0013,1.21e-08,4.67,1.8990,1.00
+truncatedNewton,1000,0,0.0003,5.05e-09,5.17,1.9604,1.00
+truncatedNewton,10000,0,0.0028,1.23e-07,5.00,1.8841,1.00
+truncatedNewton,100000,0,0.0367,2.45e-08,5.83,2.0581,1.00
+truncatedNewton,2,1,0.0018,7.34e-09,4.67,1.8691,1.00
+truncatedNewton,1000,1,0.0023,3.08e-09,5.33,1.8850,1.00
+truncatedNewton,10000,1,0.0070,1.29e-07,5.17,1.8884,1.00
+truncatedNewton,100000,1,0.0628,2.45e-08,5.83,1.9338,1.00

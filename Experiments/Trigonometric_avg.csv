@@ -1,0 +1,5 @@
+Method,N,Precond,AvgTime_s,AvgGradientNorm,AvgIter,AvgConvRate_Rho,SuccessRate
+modifiedNewton,2,0,0.0005,8.17e-09,4.00,2.6021,1.00
+modifiedNewton,1000,0,0.0020,8.93e-08,14.14,2.7626,1.00
+modifiedNewton,10000,0,0.0196,5.48e-09,20.71,2.7401,1.00
+modifiedNewton,100000,0,0.3042,2.49e-07,32.29,2.6984,1.00
